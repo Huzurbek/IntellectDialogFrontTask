@@ -1,0 +1,62 @@
+
+.autocomplete 
+  position: relative
+  text-align: left
+  display: flex
+  flex-direction: column
+  box-sizing: border-box
+
+
+.autocomplete input 
+  width: auto
+  padding: 8px
+  border: 1px solid #ccc
+  border-radius: 4px
+  margin-top: 5px
+  height: 42px
+  box-sizing: border-box
+
+
+.autocomplete .options 
+  position: absolute
+  top: 100%
+  left: 0
+  width: auto
+  right: 0
+  max-height: 200px
+  overflow-y: auto
+  margin: 0
+  padding: 0
+  list-style: none
+  border: 1px solid #ccc
+  border-top: none
+  border-radius: 0 0 4px 4px
+  background-color: #fff
+  z-index: 1000
+
+
+.autocomplete .options li 
+  padding: 8px
+  cursor: pointer
+
+
+.autocomplete .options li:hover 
+  background-color: #f0f0f0
+
+.cycle_wrapper
+    position: absolute
+    right: 0
+    top: 45%
+    transform: translate( -20%)
+    border: 1px solid #ced4da
+    border-radius: 100%
+    width: 25px
+    height: 25px
+    display: flex
+    justify-content: center
+    align-items: center
+    cursor: pointer
+    &:hover
+        background: #eeeeee
+.clear
+    right: 30px

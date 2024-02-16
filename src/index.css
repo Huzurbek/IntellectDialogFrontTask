@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #4673ff;
+  background-color: transparent;
+  border: 2px solid #4673ff;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+button:hover {
+  background-color: #4673ff;
+  color: white;
+}
+
+/* FOR SCHEDULE FORM  */
+.schedule {
+  margin-top: 10px;
+}
+.schedule .schedule-title {
+  margin-bottom: 5px;
+  text-align: left;
+  padding: 0;
+}
+
+.schedule-content {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.schedule-content input[type="datetime-local"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
